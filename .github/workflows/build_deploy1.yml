@@ -11,8 +11,8 @@ env:
 jobs:
   build-and-deploy:
     name: Build and Deploy
-    runs-on: ubuntu-latest
     environment: dev
+    runs-on: ubuntu-latest
     steps:
     - name: Checkout master from Repository
       uses: actions/checkout@master
